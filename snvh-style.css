@@ -251,3 +251,18 @@ video.video-23-1_html5, .wp-video-shortcode {
 .widget_recent_entries h2 {
     display:none;
 }
+
+
+
+/* MOBILE STYLING */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) {
+
+
+.homepage-nh-slider {
+    display:none;	
+}
+	  
+}
