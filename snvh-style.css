@@ -1,0 +1,235 @@
+/* make sure no one else is in the CSS when you are so stuffs dont get overwritten */
+
+H1, H2, H3, H4 {
+    color: #003f5f;
+    font-weight: bold;
+}
+
+ul, ol {
+    margin-left: 1.5em;
+    list-style-position: inherit;
+}
+
+.footer {
+    background-color: #003F5F;
+}
+
+.btn {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+ /****REMOVE HOME ICON*****/
+.nz-breadcrumbs > :first-child:before {
+    background: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+.nz-breadcrumbs > :first-child:before {
+    background: none;
+}
+}
+
+/******INCREASE PAGE HEADER TITLE FONT****/
+.rich-header h1 {
+		font-size: 28px;
+		line-height: 30px;
+		color: inherit;
+		color:#5E9732;
+	}
+
+.rich-header.version2 h1 {
+		font-size: 28px;
+		line-height: 38px;
+		color:#5E9732;
+	}
+	
+/*********IMAGE STYLE******/
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.nondiscrimination-wrapper {
+    padding-bottom: 20px;
+}
+
+.nondiscrimination-wrapper p.nondiscrimination-text{
+	margin-left: 0px;
+	font-size: 13px;
+	color: #fff;
+	text-align:center;
+}
+.notice-text{
+	color: #ffffff;
+}
+.click_here_link{
+	color:#FFF;
+	display:inline;
+}
+
+.nondiscrimination-wrapper p.nondiscrimination-text a:hover{
+	color:#00B6DE;
+}
+
+.page-id-7 .rich-header {
+    display:none;
+}
+
+.page-id-7 #nz-content {
+    padding:0;
+}
+
+
+
+/* hide 'post comments are off' in blog author fields */
+
+.post-comments, .post-category {
+    display: none !important;
+}
+
+/*****5THs Column Style****/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+/****end 5ths******/
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img.hover-opacity:hover {
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+}
+
+/*****FONT AWESOME******/
+.fa, .material-icons {
+    text-align: center;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 15px;
+    font-weight: 400;
+    vertical-align: middle;
+    text-transform: none;
+    line-height: 1;
+}
+
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa-li {
+ position:absolute;
+ left:-1.14285714em;
+ width:2.14285714em;
+ top:.14285714em;
+ text-align:center;
+ margin-bottom: 6%;
+}
+
+/***BOX ICON STYLE*****/
+
+.nz-content-box.box-icon:hover, .material-icons:hover {
+    color:#c2c2c2;
+}
+
+.nz-icon.medium {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+ul, ol {
+    margin-left: 0 !important;
+    list-style-position: inherit;
+}
+
+
+.nz-content-box .box-icon-wrap{
+    top: 0 !important;
+}
+
+.nz-content-box .box-icon {
+    font-size: 33px;
+    color:#033f5f;
+}
+
+.nz-content-box .box-data {
+    padding-left:50px !important;
+}
+
+.nz-content-box .nz-box > .nz-box-wrap
+{
+    padding: 15px 0;
+}
+
+.vc_icon_element,.vc_icon_element-outer, .vc_icon_element-inner,.vc_icon_element-color-blue, .vc_icon_element-icon {
+   font-style: normal;
+    font-weight: 400;
+    line-height: 1!important;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-variant: normal;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/*END BOX ICON*/
+
+video.video-23-1_html5, .wp-video-shortcode {
+    height:300px !important;
+    width:auto;
+}
+
+.mejs-container {
+   background: #333 !important; 
+}
+
+.footer-elements h4 {
+    color:#ffffff;
+}
