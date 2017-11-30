@@ -233,3 +233,21 @@ video.video-23-1_html5, .wp-video-shortcode {
 .footer-elements h4 {
     color:#ffffff;
 }
+
+.footer-elements .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom:0;
+}
+
+.widget_rss ul, .widget_nz_recent_entries ul, .widget_recent_comments ul, .widget_recent_entries ul {
+    background:transparent !important;
+}
+
+.widget_recent_entries a {
+    color:#ffffff !important;
+    font-weight:bold;
+    font-size: 115%;
+}
+
+.widget_recent_entries h2 {
+    display:none;
+}
