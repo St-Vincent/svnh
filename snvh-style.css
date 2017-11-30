@@ -267,4 +267,9 @@ ul li, ol li {
     display:none;	
 }
 	  
+.container {
+    max-width:350px;
+    width:350px;
+}
+	  
 }
