@@ -252,7 +252,9 @@ video.video-23-1_html5, .wp-video-shortcode {
     display:none;
 }
 
-
+ul li, ol li {
+    margin-left:2em;
+}
 
 /* MOBILE STYLING */
 
