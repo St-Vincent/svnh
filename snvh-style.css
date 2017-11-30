@@ -236,6 +236,7 @@ video.video-23-1_html5, .wp-video-shortcode {
 
 .footer-elements .wpb_content_element {
     margin-bottom:0;
+    margin-top:20px;	
 }
 
 .widget_rss ul, .widget_nz_recent_entries ul, .widget_recent_comments ul, .widget_recent_entries ul {
