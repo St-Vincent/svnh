@@ -257,6 +257,10 @@ ul li, ol li {
     margin-left:2em;
 }
 
+.fts-jal-fb-header {
+    display:none;
+}
+
 /* MOBILE STYLING */
 
 @media only screen 
@@ -272,5 +276,6 @@ ul li, ol li {
     max-width:350px;
     width:350px;
 }
+	   
 	  
 }
