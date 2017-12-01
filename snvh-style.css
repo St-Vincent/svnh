@@ -265,6 +265,10 @@ ul li, ol li {
     display:none;
 }
 
+#nz-content:not(.padding-false) {
+    padding: 0;
+}
+
 /* MOBILE STYLING */
 
 @media only screen 
