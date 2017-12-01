@@ -257,6 +257,10 @@ ul li, ol li {
     margin-left:2em;
 }
 
+.hide {
+    display:none !important;
+}
+
 .fts-jal-fb-header {
     display:none;
 }
