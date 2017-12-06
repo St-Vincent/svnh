@@ -71,7 +71,7 @@ ul, ol {
 }
 .click_here_link{
 	color:#FFF;
-	display:inline;
+	display:inline !important;
 }
 
 .nondiscrimination-wrapper p.nondiscrimination-text a:hover{
